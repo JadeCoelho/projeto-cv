@@ -1,187 +1,373 @@
 <!DOCTYPE html>
-<!-- @falvojr: Reference article https://www.w3schools.com/howto/howto_website_create_resume.asp -->
-<!-- @falvojr: Useful link to use fontawesome (fa) icons: https://fontawesome.com/v4/icons/ -->
 <html lang="pt-BR">
-
   <head>
     <title>Jade Mattos F. Coelho</title>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <style>
-      html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+      * {
+        font-family: "Roboto", sans-serif;
+        list-style: none;
+      }
+      body {
+        background: linear-gradient(to bottom, #454545, #000);
+      }
+      .bg-card {
+        background-color: #292929;
+      }
+      footer p:not(:last-child) a {
+        font-size: 20px;
+      }
     </style>
-    
   </head>
 
-  <body class="w3-light-grey" cz-shortcut-listen="true">
-  
+  <body cz-shortcut-listen="true">
     <!-- Page Container -->
-    <div class="w3-content w3-margin-top" style="max-width:1400px;">
-  
+    <div class="w3-content w3-margin-top" style="max-width: 1400px">
       <!-- The Grid -->
       <div class="w3-row-padding">
-  
         <!-- Left Column -->
         <div class="w3-third">
-  
-          <div class="w3-white w3-text-grey w3-card-4">
-            <!-- @falvojr: This container has been modified to not use a profile picture. -->
+          <div class="w3-card-4 bg-card">
             <div class="w3-container">
-              <h2>Jade Mattos F. Coelho</h2>
+              <h2 class="w3-text-white">Jade Mattos F. Coelho</h2>
             </div>
             <div class="w3-container">
-              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Front End</p>
-              <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Rio de Janeiro</p>
-              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>jademfcoelho@gmail.com</p>
-              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(21)97581-1821</p>
-              <hr>
-  
-              <p class="w3-large">
-                <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
+              <p class="w3-text-light-gray">
+                <i
+                  class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-purple"
+                ></i
+                >Front End
               </p>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">HTML5</div>
-              </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">CSS3</div>
-              </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">Javascript</div>
-              </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:10%">Angular</div>
-              </div>
-              <br>
-  
-              <p class="w3-large w3-text-theme">
-                <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b>
+              <p class="w3-text-light-gray">
+                <i
+                  class="fa fa-street-view fa-fw w3-margin-right w3-large w3-text-purple"
+                ></i
+                >Rio de Janeiro
               </p>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%">Português</div>
+              <p class="w3-text-light-gray">
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-purple"
+                ></i
+                >jademfcoelho@gmail.com
+              </p>
+              <p class="w3-text-light-gray">
+                <i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-purple"
+                ></i
+                >(21) 97581-1821
+              </p>
+              <hr />
+
+              <p class="w3-large w3-text-light-gray">
+                <b
+                  ><i
+                    class="fa fa-check fa-fw w3-margin-right w3-text-purple"
+                  ></i
+                  >Skills</b
+                >
+              </p>
+              <p class="w3-text-light-gray">HTML5</p>
+              <div class="w3-dark-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 80%"
+                ></div>
               </div>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:83%">Inglês</div>
+              <p class="w3-text-light-gray">CSS3</p>
+              <div class="w3-dark-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 75%"
+                ></div>
               </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%">Francês</div>
+              <p class="w3-text-light-gray">Javascript</p>
+              <div class="w3-dark-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 35%"
+                ></div>
               </div>
-              <p>TODO</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%">Espanhol</div>
+              <p class="w3-text-light-gray">Angular</p>
+              <div class="w3-dark-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 10%"
+                ></div>
               </div>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-teal" style="height:24px;width:20%">Italiano</div>
+              <br />
+
+              <p class="w3-large w3-text-theme w3-text-light-gray">
+                <b
+                  ><i
+                    class="fa fa-globe fa-fw w3-margin-right w3-text-purple"
+                  ></i
+                  >Idiomas</b
+                >
+              </p>
+              <p class="w3-text-light-gray">Português</p>
+              <div class="w3-dark-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 100%"
+                ></div>
               </div>
-              <br>
+              <p class="w3-text-light-gray">Inglês</p>
+              <div class="w3-dark-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 70%"
+                ></div>
+              </div>
+              <p class="w3-text-light-gray">Francês</p>
+              <div class="w3-dark-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 70%"
+                ></div>
+              </div>
+              <p class="w3-text-light-gray">Espanhol</p>
+              <div class="w3-dark-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 40%"
+                ></div>
+              </div>
+              <p class="w3-text-light-gray">Italiano</p>
+              <div class="w3-dark-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-purple"
+                  style="height: 12px; width: 10%"
+                ></div>
+              </div>
+              <br />
             </div>
-          </div><br>
-  
+          </div>
+          <br />
+
           <!-- End Left Column -->
         </div>
-  
+
         <!-- Right Column -->
         <div class="w3-twothird">
-    
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sobre</h2>
-            <p>TODO</p>
+          <div class="w3-container w3-card bg-card w3-margin-bottom">
+            <h2 class="w3-text-white w3-padding-16">
+              <i
+                class="fa fa-id-card-o fa-fw w3-margin-right w3-xxlarge w3-text-purple"
+              ></i
+              >Sobre
+            </h2>
+            <p class="w3-text-light-gray">
+              Interessada na área de desenvolvimento web desde 2022, busco ser
+              alguém que entrega valor com projetos úteis, funcionais e
+              satisfatórios. Focada em aprender as tecnologias HTML5, CSS3,
+              JavaScript, Angular, Typescript, Git e GitHub. Desejo aprender
+              React. Tive contato com jQuery, Bootstrap, Sass.
+            </p>
+            <p class="w3-text-light-gray">
+              Me considero esforçada e cuidadosa nos diversos tipos de tarefas,
+              com sede de conhecimentos na prática.
+            </p>
           </div>
 
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiências
+          <div class="w3-container w3-card bg-card w3-margin-bottom">
+            <h2 class="w3-text-white w3-padding-16">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-purple"
+              ></i
+              >Experiência
             </h2>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>TODO</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>INICIO - <span class="w3-tag w3-teal w3-round">Atual</span></h6>
-              <p>TODO</p>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>TODO</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>INICIO - FIM</h6>
-              <p>TODO</p>
-            </div>
-          </div>
-  
-          <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>INICIO - <span class="w3-tag w3-teal w3-round">Atual</span></h6>
-              <p>
-                Maior plataforma de educação aberta em TI da América Latina, com mais 1 milhão de usuários. 
-                A DIO possui parcerias com algumas das empresas mais inovadoras do mundo, proporcionando experiências 
-                de ensino imersivas e com foco em empregabilidade. Nesse contexto, seguem meus principais certificados:
+              <p class="w3-text-light-gray">
+                Atualmente uma estudante autoditada ansiando por experiências
+                onde eu possa pertencer a uma rede com boas trocas,
+                compartilhamento de ideias, cooperação e desejo constante de
+                melhoria.
               </p>
-              <ul>
-                <li><a href="LINK_CERTIFICADO" target="_blank">TODO</a></li>
-                <li><a href="LINK_CERTIFICADO" target="_blank">TODO</a></li>
-                <li><a href="LINK_CERTIFICADO" target="_blank">TODO</a></li>
-              </ul>
-              <hr>
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>TODO</b></h5>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>INICIO - FIM</h6>
-              <p>TODO</p>
+              <hr />
             </div>
           </div>
 
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos
+          <div class="w3-container w3-card bg-card w3-margin-bottom">
+            <h2 class="w3-text-white w3-padding-16">
+              <i
+                class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-purple"
+              ></i
+              >Certificados
             </h2>
             <div class="w3-container">
-              <h6 class="w3-text-teal">
-                <i class="fa fa-github fa-fw w3-margin-right"></i>
-                <a href="LINK_GITHUB" target="_blank">USUARIO_GITHUB/REPO</a>
-              </h6>
-              <p>TODO</p>
-              <hr>
+              <h5 class="w3-text-light-gray">
+                <b>Digital Innovation One (DIO)</b>
+              </h5>
+              <p class="w3-text-light-gray">Bootcamp</p>
+              <ul>
+                <li>
+                  <a href="#" target="_blank" class="w3-text-purple"
+                    >Potência Tech Angular Developer - Powered by iFood</a
+                  >
+                </li>
+              </ul>
+              <hr />
             </div>
             <div class="w3-container">
-              <h6 class="w3-text-teal">
-                <i class="fa fa-gitlab fa-fw w3-margin-right"></i>
-                <a href="LINK_GITLAB" target="_blank">USUARIO_GITLAB/REPO</a>
-              </h6>
-              <p>TODO</p>
+              <h5 class="w3-text-light-gray"><b>Loiane.training</b></h5>
+              <p class="w3-text-light-gray">Curso</p>
+              <ul>
+                <li>
+                  <a
+                    href="https://loiane.training/certificado/Uv0zYSYhWo9do1EobfvN"
+                    target="_blank"
+                    class="w3-text-purple"
+                    >Angular</a
+                  >
+                </li>
+              </ul>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-text-light-gray"><b>Cod3r</b></h5>
+              <p class="w3-text-light-gray">Cursos</p>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.cod3r.com.br/certificates/5ijoqlv03e"
+                    target="_blank"
+                    class="w3-text-purple"
+                    >Javascript Funcional</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.cod3r.com.br/certificates/kvnypdoyv2"
+                    target="_blank"
+                    class="w3-text-purple"
+                    >Angular Essencial</a
+                  >
+                </li>
+              </ul>
+              <hr />
             </div>
           </div>
-  
+
+          <div class="w3-container w3-card bg-card w3-margin-bottom">
+            <h2 class="w3-text-light-gray w3-padding-16">
+              <i
+                class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-purple"
+              ></i
+              >Projetos principais
+            </h2>
+            <div class="w3-container">
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a
+                  href="https://jadecoelho.github.io/portfolio/"
+                  target="_blank"
+                  >Portfolio</a
+                >
+              </h6>
+              <hr />
+
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a href="https://jadecoelho.github.io/pokedex/" target="_blank"
+                  >Pokédex</a
+                >
+              </h6>
+              <hr />
+
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a
+                  href="https://jadecoelho.github.io/crud-watch/"
+                  target="_blank"
+                  >Watch-list</a
+                >
+              </h6>
+              <hr />
+
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a
+                  href="https://jadecoelho.github.io/flashcards/"
+                  target="_blank"
+                  >Flashcards</a
+                >
+              </h6>
+              <hr />
+
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a
+                  href="https://jadecoelho.github.io/meus-jogos/"
+                  target="_blank"
+                  >Meus Jogos</a
+                >
+              </h6>
+              <hr />
+
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a
+                  href="https://jadecoelho.github.io/planner-digital/"
+                  target="_blank"
+                  >Planner Digital</a
+                >
+              </h6>
+              <hr />
+
+              <h6 class="w3-text-purple">
+                <i class="fa fa-github w3-text-white fa-fw w3-margin-right"></i>
+                <a
+                  href="https://jadecoelho.github.io/galeria-desenhos/"
+                  target="_blank"
+                  >Galeria de desenhos</a
+                >
+              </h6>
+              <hr />
+            </div>
+          </div>
+
           <!-- End Right Column -->
         </div>
-  
+
         <!-- End Grid -->
       </div>
-  
+
       <!-- End Page Container -->
     </div>
-  
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
-      <p>Minhas Redes Sociais</p>
-      <a href="LINK_GITHUB" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-      <a href="LINK_LINKEDIN" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-      <a href="LINK_FACEBOOK" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-      <a href="LINK_INSTAGRAM" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-      <a href="LINK_TWITTER" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </footer>
-  
-  </body>
 
+    <footer class="w3-container w3-black w3-center w3-margin-top">
+      <p class="w3-text-light-gray">Minhas redes sociais:</p>
+      <p class="w3-text-light-gray">
+        <a
+          href="https://github.com/JadeCoelho"
+          target="_blank"
+          class="w3-margin-right"
+          ><i class="fa fa-github w3-hover-opacity w3-text-purple"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jademattoscoelho/" target="_blank"
+          ><i class="fa fa-linkedin w3-hover-opacity w3-text-purple"></i
+        ></a>
+      </p>
+
+      <p class="w3-text-light-gray">
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
